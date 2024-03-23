@@ -1,0 +1,4 @@
+import json
+record=1> +I[trade,1711095479989,BTCUSDT,3505670473,66302.01000000,0.00155000,25916163724,25916162928,1711095479988,False,True]
+temp=json.dumps(record)
+print(temp)
